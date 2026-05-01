@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+env/
+.env/
+
+# PyInstaller
+build/
+dist/
+*.spec.bak
+
+# App user data (written at runtime — never commit)
+data/
+archive/
+exports/
+logs/
+results/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# macOS
+.DS_Store
+__MACOSX/
+
+# Secrets / keys
+*.key
+.fernet.key

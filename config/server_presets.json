@@ -1,0 +1,187 @@
+{
+  "gmail.com": {
+    "imap": {"server": "imap.gmail.com", "port": 993, "ssl": true},
+    "pop3": {"server": "pop.gmail.com", "port": 995, "ssl": true},
+    "oauth": "gmail"
+  },
+  "googlemail.com": {
+    "imap": {"server": "imap.gmail.com", "port": 993, "ssl": true},
+    "pop3": {"server": "pop.gmail.com", "port": 995, "ssl": true},
+    "oauth": "gmail"
+  },
+  "outlook.com": {
+    "imap": {"server": "outlook.office365.com", "port": 993, "ssl": true},
+    "pop3": {"server": "outlook.office365.com", "port": 995, "ssl": true},
+    "oauth": "microsoft"
+  },
+  "hotmail.com": {
+    "imap": {"server": "outlook.office365.com", "port": 993, "ssl": true},
+    "pop3": {"server": "outlook.office365.com", "port": 995, "ssl": true},
+    "oauth": "microsoft"
+  },
+  "live.com": {
+    "imap": {"server": "outlook.office365.com", "port": 993, "ssl": true},
+    "pop3": {"server": "outlook.office365.com", "port": 995, "ssl": true},
+    "oauth": "microsoft"
+  },
+  "msn.com": {
+    "imap": {"server": "outlook.office365.com", "port": 993, "ssl": true},
+    "pop3": {"server": "outlook.office365.com", "port": 995, "ssl": true},
+    "oauth": "microsoft"
+  },
+  "office365.com": {
+    "imap": {"server": "outlook.office365.com", "port": 993, "ssl": true},
+    "oauth": "microsoft"
+  },
+  "yahoo.com": {
+    "imap": {"server": "imap.mail.yahoo.com", "port": 993, "ssl": true},
+    "pop3": {"server": "pop.mail.yahoo.com", "port": 995, "ssl": true}
+  },
+  "ymail.com": {
+    "imap": {"server": "imap.mail.yahoo.com", "port": 993, "ssl": true},
+    "pop3": {"server": "pop.mail.yahoo.com", "port": 995, "ssl": true}
+  },
+  "aol.com": {
+    "imap": {"server": "imap.aol.com", "port": 993, "ssl": true},
+    "pop3": {"server": "pop.aol.com", "port": 995, "ssl": true}
+  },
+  "icloud.com": {
+    "imap": {"server": "imap.mail.me.com", "port": 993, "ssl": true}
+  },
+  "me.com": {
+    "imap": {"server": "imap.mail.me.com", "port": 993, "ssl": true}
+  },
+  "mac.com": {
+    "imap": {"server": "imap.mail.me.com", "port": 993, "ssl": true}
+  },
+  "protonmail.com": {
+    "imap": {"server": "127.0.0.1", "port": 1143, "ssl": false},
+    "pop3": {"server": "127.0.0.1", "port": 1110, "ssl": false},
+    "_note": "Requires ProtonMail Bridge running locally"
+  },
+  "proton.me": {
+    "imap": {"server": "127.0.0.1", "port": 1143, "ssl": false},
+    "pop3": {"server": "127.0.0.1", "port": 1110, "ssl": false},
+    "_note": "Requires ProtonMail Bridge running locally"
+  },
+  "fastmail.com": {
+    "imap": {"server": "imap.fastmail.com", "port": 993, "ssl": true},
+    "pop3": {"server": "pop.fastmail.com", "port": 995, "ssl": true}
+  },
+  "fastmail.fm": {
+    "imap": {"server": "imap.fastmail.com", "port": 993, "ssl": true},
+    "pop3": {"server": "pop.fastmail.com", "port": 995, "ssl": true}
+  },
+  "zoho.com": {
+    "imap": {"server": "imap.zoho.com", "port": 993, "ssl": true},
+    "pop3": {"server": "pop.zoho.com", "port": 995, "ssl": true}
+  },
+  "zohomail.com": {
+    "imap": {"server": "imap.zoho.com", "port": 993, "ssl": true},
+    "pop3": {"server": "pop.zoho.com", "port": 995, "ssl": true}
+  },
+  "gmx.com": {
+    "imap": {"server": "imap.gmx.com", "port": 993, "ssl": true},
+    "pop3": {"server": "pop.gmx.com", "port": 995, "ssl": true}
+  },
+  "gmx.net": {
+    "imap": {"server": "imap.gmx.net", "port": 993, "ssl": true},
+    "pop3": {"server": "pop.gmx.net", "port": 995, "ssl": true}
+  },
+  "web.de": {
+    "imap": {"server": "imap.web.de", "port": 993, "ssl": true},
+    "pop3": {"server": "pop3.web.de", "port": 995, "ssl": true}
+  },
+  "t-online.de": {
+    "imap": {"server": "secureimap.t-online.de", "port": 993, "ssl": true},
+    "pop3": {"server": "securepop.t-online.de", "port": 995, "ssl": true}
+  },
+  "mail.com": {
+    "imap": {"server": "imap.mail.com", "port": 993, "ssl": true},
+    "pop3": {"server": "pop.mail.com", "port": 995, "ssl": true}
+  },
+  "inbox.com": {
+    "imap": {"server": "inbound.inbox.com", "port": 993, "ssl": true},
+    "pop3": {"server": "pop3.inbox.com", "port": 995, "ssl": true}
+  },
+  "comcast.net": {
+    "imap": {"server": "imap.comcast.net", "port": 993, "ssl": true},
+    "pop3": {"server": "pop3.comcast.net", "port": 995, "ssl": true}
+  },
+  "att.net": {
+    "imap": {"server": "imap.mail.att.net", "port": 993, "ssl": true},
+    "pop3": {"server": "inbound.att.net", "port": 995, "ssl": true}
+  },
+  "sbcglobal.net": {
+    "imap": {"server": "imap.mail.att.net", "port": 993, "ssl": true},
+    "pop3": {"server": "inbound.att.net", "port": 995, "ssl": true}
+  },
+  "verizon.net": {
+    "imap": {"server": "incoming.verizon.net", "port": 993, "ssl": true},
+    "pop3": {"server": "incoming.verizon.net", "port": 995, "ssl": true}
+  },
+  "cox.net": {
+    "imap": {"server": "imap.cox.net", "port": 993, "ssl": true},
+    "pop3": {"server": "pop.cox.net", "port": 995, "ssl": true}
+  },
+  "charter.net": {
+    "imap": {"server": "mail.charter.net", "port": 993, "ssl": true},
+    "pop3": {"server": "mail.charter.net", "port": 995, "ssl": true}
+  },
+  "earthlink.net": {
+    "imap": {"server": "imap.earthlink.net", "port": 993, "ssl": true},
+    "pop3": {"server": "pop.earthlink.net", "port": 995, "ssl": true}
+  },
+  "tutanota.com": {
+    "imap": {"server": "mail.tutanota.com", "port": 993, "ssl": true},
+    "_note": "Tutanota uses proprietary protocol; IMAP may require bridge"
+  },
+  "hey.com": {
+    "_note": "HEY does not support IMAP/POP3 — export only via web"
+  },
+  "mailfence.com": {
+    "imap": {"server": "imap.mailfence.com", "port": 993, "ssl": true},
+    "pop3": {"server": "pop.mailfence.com", "port": 995, "ssl": true}
+  },
+  "runbox.com": {
+    "imap": {"server": "mail.runbox.com", "port": 993, "ssl": true},
+    "pop3": {"server": "mail.runbox.com", "port": 995, "ssl": true}
+  },
+  "posteo.de": {
+    "imap": {"server": "posteo.de", "port": 993, "ssl": true},
+    "pop3": {"server": "posteo.de", "port": 995, "ssl": true}
+  },
+  "hushmail.com": {
+    "imap": {"server": "imap.hushmail.com", "port": 993, "ssl": true},
+    "pop3": {"server": "pop3.hushmail.com", "port": 995, "ssl": true}
+  },
+  "yandex.com": {
+    "imap": {"server": "imap.yandex.com", "port": 993, "ssl": true},
+    "pop3": {"server": "pop.yandex.com", "port": 995, "ssl": true}
+  },
+  "yandex.ru": {
+    "imap": {"server": "imap.yandex.ru", "port": 993, "ssl": true},
+    "pop3": {"server": "pop.yandex.ru", "port": 995, "ssl": true}
+  },
+  "mail.ru": {
+    "imap": {"server": "imap.mail.ru", "port": 993, "ssl": true},
+    "pop3": {"server": "pop.mail.ru", "port": 995, "ssl": true}
+  },
+  "163.com": {
+    "imap": {"server": "imap.163.com", "port": 993, "ssl": true},
+    "pop3": {"server": "pop.163.com", "port": 995, "ssl": true}
+  },
+  "126.com": {
+    "imap": {"server": "imap.126.com", "port": 993, "ssl": true},
+    "pop3": {"server": "pop.126.com", "port": 995, "ssl": true}
+  },
+  "qq.com": {
+    "imap": {"server": "imap.qq.com", "port": 993, "ssl": true},
+    "pop3": {"server": "pop.qq.com", "port": 995, "ssl": true}
+  },
+  "_custom": {
+    "_note": "Use this template for any custom IMAP/POP3 server",
+    "imap": {"server": "", "port": 993, "ssl": true},
+    "pop3": {"server": "", "port": 995, "ssl": true}
+  }
+}

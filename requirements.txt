@@ -1,0 +1,41 @@
+# GUI
+PyQt6>=6.7.0
+
+# Database
+SQLAlchemy>=2.0.0
+alembic>=1.13.0
+
+# Email protocols / parsing
+mail-parser>=3.15.0
+
+# OAuth - Gmail
+google-auth>=2.35.0
+google-auth-oauthlib>=1.2.0
+google-api-python-client>=2.100.0
+
+# OAuth - Microsoft / Outlook
+msal>=1.30.0
+
+# Exchange / EWS
+exchangelib>=5.0.0
+
+# Encryption
+cryptography>=42.0.0
+
+# Export
+openpyxl>=3.1.0
+vobject>=0.9.6
+
+# DNS (MX lookup for server auto-detection)
+dnspython>=2.4.0
+
+# Proxy
+PySocks>=1.7.1
+
+# Utilities
+python-dateutil>=2.8.0
+requests>=2.31.0
+chardet>=5.0.0
+
+# Packaging (dev only)
+pyinstaller>=6.0.0

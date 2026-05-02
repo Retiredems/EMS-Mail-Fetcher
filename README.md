@@ -51,14 +51,22 @@ Built for **email marketers**, **mailer operators**, and **power users** who nee
 | Exchange (EWS) | Password / NTLM | On-premise + hosted |
 
 ### Bulk Account Loading
-- Load accounts from `.txt` or `.csv` — `email:password` format
+- Load accounts from `.txt` or `.csv` — `email:password` format (UTF-8 and UTF-16 BOM files supported)
 - Auto-detect IMAP/SMTP server via **DNS MX lookup** (no manual config needed)
-- Pre-configured server presets for Gmail, Outlook, Yahoo, and more
+- **223-entry server preset library** — Gmail, Yahoo (20+ TLDs), Outlook/Live/Hotmail (25+ locales), Russian, Chinese, Korean, Japanese, Brazilian, German, French, Italian, US ISPs, privacy providers, and more
+- Automatic fallback: if no preset matches, tries the domain itself as the IMAP/POP3 host
+- Multi-server retry — each preset lists alternate hostnames tried in order before giving up
 
 ### Parallel Fetch Engine
 - **5 worker threads** by default (configurable up to 20)
 - Per-account status tracking: `Connecting → Running → Finished / Error`
+- **Login-only mode** — verify credentials without downloading any mail
+- **Date range filter (From / To)** — server-side IMAP `SINCE`/`BEFORE` filtering; saves bandwidth
+- **Keyword search** — IMAP `TEXT` search applied at the server before downloading
+- **Error codes in status column** — `[AUTHENTICATIONFAILED]`, `[TIMEOUT]`, `[SSL_ERR]`, `[DNS_ERR]`, `[REFUSED]`
 - Auto-reconnect with exponential back-off (up to 3 retries)
+- Short-username fallback — retries with `user` if `user@domain.com` fails auth
+- Non-English folder names decoded correctly (Russian, Chinese, Arabic, Japanese)
 - Configurable connection timeout (30 s default)
 
 ### Email Archiving
@@ -83,6 +91,7 @@ Built for **email marketers**, **mailer operators**, and **power users** who nee
 
 ### Proxy Support
 - SOCKS5 proxy with optional username/password
+- Supports `socks5://user:pass@ip:port` and `ip:port,user,pass` formats
 - Applied to all IMAP and POP3 connections
 - Configure once in Settings — persists across sessions
 
@@ -157,6 +166,35 @@ The app auto-detects the mail server for each domain via DNS MX lookup. You can 
 ---
 
 ## Changelog
+
+### v1.1.0 — May 2026
+
+#### Server Coverage
+- **223-entry server preset library** — Yahoo (20+ TLDs), Live/Hotmail (25+ locales), Russian (Mail.ru, Yandex, Rambler), Chinese (163, 126, QQ, Sina, Sohu), Korean, Japanese, Brazilian, German, French, Italian, UK/Canadian/Australian, Polish, Czech, Israeli, Turkish, Scandinavian, major US ISPs, and privacy providers (ProtonMail, Tutanota, Fastmail, Zoho, and more)
+- **`#domain#` auto-fallback** — any unrecognized domain automatically attempts IMAP/POP3 using the domain itself as the hostname — nothing gets skipped
+- **Multi-server retry** — alternate hostnames tried in order before reporting failure
+- **Live MX record lookup** — DNS resolved before falling back to hostname patterns
+
+#### Authentication
+- **Short-username fallback** — retries with `user` if `user@domain.com` fails (required by many ISP and corporate servers)
+- **Login-only mode** — verify credentials across hundreds of accounts without downloading mail; each reports "Login OK ✓" or the exact error code
+
+#### Filtering
+- **Date range (From / To)** — server-side IMAP `SINCE`/`BEFORE` filtering; leave blank to fetch everything
+- **Keyword search** — IMAP `TEXT` search at the server before downloading saves bandwidth and time
+
+#### Reliability
+- **Non-English folder names** — IMAP modified UTF-7 fully decoded (Russian, Chinese, Arabic, Japanese)
+- **BOM-safe file loading** — UTF-8/UTF-16 BOM in email:pass files handled correctly on all platforms
+- **Error codes in status column** — `[AUTHENTICATIONFAILED]`, `[TIMEOUT]`, `[SSL_ERR]`, `[DNS_ERR]`, `[REFUSED]` shown per account
+- **Auto-reconnect** — dropped connections mid-fetch re-established silently (up to 3 retries)
+- **AOL & slow-server fix** — per-connection deadline prevents stuck threads blocking the whole run
+- **Exchange (EWS) crash fixed** — Exchange accounts now use a dedicated code path
+
+#### UI
+- **Comma-format proxy** — accepts `ip:port,user,pass` in addition to URL format
+- **Right-click Copy Domain / Copy Server** — new context-menu actions on account rows
+- **From / To date fields + keyword bar** — dedicated filter row below the toolbar
 
 ### v1.0.0
 - Initial public release

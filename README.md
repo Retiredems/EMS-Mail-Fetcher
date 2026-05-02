@@ -34,6 +34,9 @@ Built for **email marketers**, **mailer operators**, and **power users** who nee
 
 <img width="1062" height="589" alt="ems mail fetcher 2" src="https://github.com/user-attachments/assets/6c98dede-6c99-4c1f-8ed8-4451572e1684" />
 
+
+<img width="2138" height="1200" alt="IMG_4568" src="https://github.com/user-attachments/assets/b29b2188-fe88-44c9-8d6e-8c7fb177fd9a" />
+
 ---
 
 ## Key Features

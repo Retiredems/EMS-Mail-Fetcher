@@ -29,13 +29,16 @@ Built for **email marketers**, **mailer operators**, and **power users** who nee
 
 ## Screenshots
 
-
-<img width="1066" height="595" alt="ems-mail-fetcher" src="https://github.com/user-attachments/assets/46151d6e-a319-4f24-93c4-2294d63346bb" />
-
-<img width="1062" height="589" alt="ems mail fetcher 2" src="https://github.com/user-attachments/assets/6c98dede-6c99-4c1f-8ed8-4451572e1684" />
+<img width="1062" height="629" alt="Screenshot 2026-05-02 at 15 19 55" src="https://github.com/user-attachments/assets/7a1027ce-eb0e-4ae6-8ce6-58c5f66b00cc" />
 
 
-<img width="2138" height="1200" alt="IMG_4568" src="https://github.com/user-attachments/assets/b29b2188-fe88-44c9-8d6e-8c7fb177fd9a" />
+<img width="1063" height="631" alt="Screenshot 2026-05-02 at 15 31 07" src="https://github.com/user-attachments/assets/cf734ff3-c67c-4089-85bb-b56a6b6127c4" />
+
+<img width="1060" height="632" alt="Screenshot 2026-05-02 at 15 20 14" src="https://github.com/user-attachments/assets/6b9846a2-d6d4-41ab-9bf1-86f0bd741abc" />
+
+<img width="2126" height="1276" alt="new ems mail fetcher" src="https://github.com/user-attachments/assets/1b1d4d54-a378-4cfc-87c0-114370fc5556" />
+
+
 
 ---
 

@@ -22,7 +22,14 @@
 
 EMS Mail Fetcher is a native desktop application that lets you load a list of email accounts, test them in parallel, fetch and archive messages, and export results — all without touching a browser or writing a single line of code.
 
-Built for **RDP environments**, **email marketers**, and **mailer operators** who need to process hundreds of accounts fast.
+Built for **email marketers**, **mailer operators**, and **power users** who need to process hundreds of accounts fast — on any Windows or macOS machine.
+
+---
+
+## Screenshots
+
+<img width="1062" height="589" alt="ems mail fetcher 2" src="https://github.com/user-attachments/assets/dda07cc1-75f1-4453-838e-1163be55ce72" />
+<img width="1066" height="595" alt="ems-mail-fetcher" src="https://github.com/user-attachments/assets/715e84e3-334f-4437-bbb8-2edb2542dcd8" />
 
 ---
 
@@ -79,45 +86,38 @@ Built for **RDP environments**, **email marketers**, and **mailer operators** wh
 - High-DPI / Retina-ready
 
 ### Built-in Update Checker
-- Checks GitHub releases on every launch (silent, no interruption)
+- Checks for new versions on every launch (silent, no interruption)
 - One-click update notification banner when a new version is available
-
----
-
-## Screenshots
-
-<img width="1062" height="589" alt="ems mail fetcher 2" src="https://github.com/user-attachments/assets/dda07cc1-75f1-4453-838e-1163be55ce72" />
-<img width="1066" height="595" alt="ems-mail-fetcher" src="https://github.com/user-attachments/assets/715e84e3-334f-4437-bbb8-2edb2542dcd8" />
 
 ---
 
 ## Installation
 
-### Windows (.exe Installer)
+### Windows
 
 1. Download `EMS_Mail_Fetcher_Windows.zip` from the [latest release](../../releases/latest)
 2. Extract the zip
 3. Run `EMS_Mail_Fetcher.exe`
 4. Enter your license key on first launch
 
-> **RDP users:** Copy the extracted folder to your RDP server and run from there. No installer needed — it is fully portable.
+> No installation required — fully portable. Works on any Windows desktop, laptop, server, VPS, or RDP environment.
 
-### macOS (.app Bundle)
+### macOS
 
 1. Download `EMS_Mail_Fetcher_macOS.zip` from the [latest release](../../releases/latest)
 2. Extract and drag `EMS Mail Fetcher.app` to your Applications folder
-3. Right-click → Open on first launch (to bypass Gatekeeper on unsigned builds)
+3. Right-click → Open on first launch (Gatekeeper bypass for unsigned builds)
 4. Enter your license key
 
 ---
 
 ## Getting a License
 
-EMS Mail Fetcher is a **commercial product**. Licenses are sold per device and are hardware-tied (no cloud check-in required after activation).
+EMS Mail Fetcher is a **commercial product**. Licenses are sold per device and are hardware-tied — no cloud check-in required after activation.
 
-- **[Get EMS Mailer →](https://github.com/Retiredems/Ems-Mailer/releases/latest)** — purchase includes a license key for EMS Mail Fetcher
+Contact via Telegram to purchase a license key.
 
-Each license is valid for a single machine. If you reinstall Windows or move to a new RDP server, your license transfers automatically — no re-activation needed as long as the hardware UUID is detected correctly.
+Each license is valid for a single machine. If you reinstall Windows or move to a new RDP server, your license transfers automatically — no re-activation needed.
 
 ---
 
@@ -131,19 +131,7 @@ another@gmail.com:mypassword
 user@outlook.com:securepass
 ```
 
-The app will auto-detect the mail server for each domain via DNS MX lookup. You can override the server in Settings if needed.
-
----
-
-## Settings
-
-| Setting | Default | Description |
-|---------|---------|-------------|
-| Thread count | 5 | Parallel fetch workers |
-| Connection timeout | 30 s | TCP + SSL handshake deadline |
-| Theme | Dark | Dark or Light |
-| Proxy | Disabled | SOCKS5 host:port (optional) |
-| Export directory | `~/Documents` | Where exports are saved |
+The app auto-detects the mail server for each domain via DNS MX lookup. You can override the server in Settings if needed.
 
 ---
 
@@ -156,46 +144,21 @@ The app will auto-detect the mail server for each domain via DNS MX lookup. You 
 | Disk | 150 MB | 150 MB |
 | Network | Required | Required |
 
-> Works on Windows Server 2016/2019/2022 — including RDP / VPS environments.
+> Works on any Windows 10 / 11 desktop or laptop, and Windows Server 2016 / 2019 / 2022 including VPS and RDP environments.
 
 ---
 
-## Build From Source
-
-If you want to build the app yourself:
-
-```bash
-git clone https://github.com/Retiredems/EMS-Mail-Fetcher.git
-cd EMS-Mail-Fetcher/email_archiver
-python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-python main.py                  # run from source
-```
-
-To build a standalone executable:
-
-```bash
-pyinstaller email_archiver.spec --clean --noconfirm
-# Output: dist/EMS_Mail_Fetcher/  (Windows)
-#         dist/EMS Mail Fetcher.app  (macOS)
-```
-
-CI builds for both platforms run automatically via GitHub Actions on every `v*` tag push.
-
----
 ## Changelog
 
 ### v1.0.0
 - Initial public release
 - IMAP, POP3, Gmail OAuth, Outlook OAuth, Exchange (EWS) support
-- Parallel fetch engine (5 threads default)
+- Parallel fetch engine with 5 worker threads
 - CSV, Excel, .eml, vCard export
 - Dark / light theme
 - SOCKS5 proxy support
 - Hardware-tied license with self-healing activation
-- Auto-update checker via GitHub releases
-- Windows (.exe) and macOS (.app) builds via GitHub Actions
+- Built-in update checker
 
 ---
 

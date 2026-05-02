@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="assets/icon.png" alt="EMS Mail Fetcher" width="96"/>
+  <img width="837" height="558" alt="Screenshot 2026-05-02 at 02 27 54" src="https://github.com/user-attachments/assets/26537010-399e-4645-af16-46281e285b10" />
+
 </p>
 
 <h1 align="center">EMS Mail Fetcher</h1>
@@ -28,8 +29,10 @@ Built for **email marketers**, **mailer operators**, and **power users** who nee
 
 ## Screenshots
 
-<img width="1062" height="589" alt="ems mail fetcher 2" src="https://github.com/user-attachments/assets/dda07cc1-75f1-4453-838e-1163be55ce72" />
-<img width="1066" height="595" alt="ems-mail-fetcher" src="https://github.com/user-attachments/assets/715e84e3-334f-4437-bbb8-2edb2542dcd8" />
+
+<img width="1066" height="595" alt="ems-mail-fetcher" src="https://github.com/user-attachments/assets/46151d6e-a319-4f24-93c4-2294d63346bb" />
+
+<img width="1062" height="589" alt="ems mail fetcher 2" src="https://github.com/user-attachments/assets/6c98dede-6c99-4c1f-8ed8-4451572e1684" />
 
 ---
 

@@ -86,7 +86,8 @@ Built for **RDP environments**, **email marketers**, and **mailer operators** wh
 
 ## Screenshots
 
-> _Add screenshots here after first launch_
+<img width="1062" height="589" alt="ems mail fetcher 2" src="https://github.com/user-attachments/assets/dda07cc1-75f1-4453-838e-1163be55ce72" />
+<img width="1066" height="595" alt="ems-mail-fetcher" src="https://github.com/user-attachments/assets/715e84e3-334f-4437-bbb8-2edb2542dcd8" />
 
 ---
 
@@ -183,7 +184,6 @@ pyinstaller email_archiver.spec --clean --noconfirm
 CI builds for both platforms run automatically via GitHub Actions on every `v*` tag push.
 
 ---
-
 ## Changelog
 
 ### v1.0.0

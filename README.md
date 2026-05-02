@@ -123,6 +123,8 @@ EMS Mail Fetcher is a **commercial product**. Licenses are sold per device and a
 
 Contact via Telegram to purchase a license key.
 
+👉 **Telegram: [@retiredems](https://t.me/retiredems)**
+🤖 **Bot: [@emsmailerbot](https://t.me/emsmailerbot)**
 Each license is valid for a single machine. If you reinstall Windows or move to a new RDP server, your license transfers automatically — no re-activation needed.
 
 ---

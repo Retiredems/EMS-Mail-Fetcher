@@ -1,7 +1,6 @@
 <!-- ems-callout -->
-> **v1.3.0 — refreshed brand and a polished activation flow.** Same software, sharper edges. [→ Download the latest build](https://github.com/Retiredems/EMS-Mail-Fetcher/releases/latest)
+> **v1.3.1 — refreshed brand and a polished activation flow.** Same software, sharper edges. [→ Download the latest build](https://github.com/Retiredems/EMS-Mail-Fetcher/releases/latest)
 <!-- ems-callout -->
-
 <p align="center">
   <img width="837" height="558" alt="Screenshot 2026-05-02 at 02 27 54" src="https://github.com/user-attachments/assets/26537010-399e-4645-af16-46281e285b10" />
 
